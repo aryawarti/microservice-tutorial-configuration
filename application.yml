@@ -8,11 +8,12 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
-security:
-  oauth2:
-    resourceserver:
-      jwt:
-        issuer-uri: https://integrator-6903736.okta.com/oauth2/aus10qckcsx7o3Qeh698
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://integrator-6903736.okta.com/oauth2/aus10qckcsx7o3Qeh698
 
 okta:
   oauth2:
